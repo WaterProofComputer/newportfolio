@@ -8,7 +8,7 @@ const Projektit = () => {
     'maalaus.jpg',
     'maalaus.png',
     'logo512.png',
-  ]; // Add other image URLs as needed
+  ];
 
   useEffect(() => {
     const interval = setInterval(() => {
