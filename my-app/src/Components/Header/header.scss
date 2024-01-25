@@ -11,3 +11,59 @@
     width: 100%; /* Make it full-width */
     z-index: 2;
 }
+.nav-links {
+    list-style: none;
+    align-items: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-size: 3em;
+  }
+  .nav-links li a {
+    text-decoration: none; /* Remove underlines from the links */
+    color: #ffffff; /* Change the text color to white */
+    padding: 10px 20px; /* Adjust padding for spacing */
+    margin-right: 20px; /* Adjust spacing between buttons */
+  }
+  
+  /* Style for the navigation buttons on hover */
+  .nav-links li a:hover {
+    background-color: #ffffff; /* Change background color on hover */
+    color: #333; /* Change text color on hover */
+  }
+  .nav-links li {
+    margin-right: 20px;
+  }
+  .hamburger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  .hamburger-menu .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 3px 0;
+  }
+  .hamburger-menu {
+    display: flex;
+  }
+  #alku {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h4{
+    font-size: 5rem;
+    color: white;
+  }
+  .wrapper {
+    position: absolute;
+    z-index: 1;
+  }
+  body, h1, ul, li {
+    margin: 0;
+    padding: 0;
+}
