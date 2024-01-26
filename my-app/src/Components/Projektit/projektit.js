@@ -19,6 +19,7 @@ const Projektit = () => {
   }, [images.length]);
 
   return (
+    <div className='galleriamain'>
     <div className="galleria">
       {images.map((image, index) => (
         <img
@@ -29,10 +30,11 @@ const Projektit = () => {
           style={{
             position: 'absolute',
             transition: '1s',
-            objectFit: 'contain',
+            objectFit: 'fill',
           }}
         />
       ))}
+    </div>
     </div>
   );
 };

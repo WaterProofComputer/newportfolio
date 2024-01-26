@@ -1,21 +1,31 @@
-.galleria {
+  .galleria {
     display: flex;
     overflow: hidden;
     align-self: center;
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     justify-content: center;
+    justify-self: center;
   }
   .galleria img {
     object-fit: cover;
     align-items: center;
+    justify-self: center;
     transition: opacity 0.5s ease-in-out;
-    width: 60%;
-    height: 60%;
+    width: 500px;
+    height: 500px;
   }
   .galleria img.active {
     opacity: 1;
   }
   .galleria img:not(.active) {
     opacity: 0;
+  }
+  .galleriamain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1e3535;
+    height: 900px;
   }
