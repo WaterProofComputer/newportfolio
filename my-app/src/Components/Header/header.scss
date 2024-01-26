@@ -1,13 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e7e5e5b6;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+#alku {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .navbar {
-    position: fixed; /* Add fixed position to make it stay at the top */
-    top: 0; /* Place it at the top of the viewport */
-    left: 0; /* Align it to the left */
+    position: fixed;
+    top: 0;
+    left: 0;
     display: flex;
     align-items: center;
     justify-content: space-around;
     background-color: #1a1e2373;
     padding: 10px;
     color: white;
-    width: 100%; /* Make it full-width */
+    width: 100%;
     z-index: 2;
+}
+
+.nav-links {
+    list-style: none;
+    align-items: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-size: 3em;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin-right: 20px;
+}
+
+.nav-links li a:hover {
+    background-color: #ffffff;
+    color: #333;
+}
+
+.hamburger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger-menu .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 3px 0;
+}
+
+.nav-links.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    width: 100%;
+    background-color: #1a1e2373;
+    text-align: center;
+}
+
+.content {
+    position: relative;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    position: absolute;
+    z-index: 1;
+}
+
+p {
+    font-size: 1.5rem;
+    color: white;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: white;
+}
+
+h1 {
+    font-size: 3.5rem;
+    color: white;
+}
+
+h4 {
+    font-size: 5rem;
+    color: white;
+}
+
+h3 {
+    font-size: 3em;
+    color: white;
+}
+
+h5 {
+    font-size: 2.5em;
+    color: white;
+}
+
+#headertext {
+    font-size: 5vw;
+    background-color: transparent;
+    height: 50px;
 }

@@ -1,20 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './header.scss';
 import './bubbles.scss'
-import CircularProgress from '@mui/joy/CircularProgress';
-import Gallery from './gallery';
-import { Grid, LinearProgress } from '@mui/material';
-import Typography from '@mui/material/Typography';
-import Box from '@mui/material/Box';
-import Timeline from '@mui/lab/Timeline';
-import TimelineItem from '@mui/lab/TimelineItem';
-import TimelineSeparator from '@mui/lab/TimelineSeparator';
-import TimelineConnector from '@mui/lab/TimelineConnector';
-import TimelineContent from '@mui/lab/TimelineContent';
-import TimelineDot from '@mui/lab/TimelineDot';
-import TimelineOppositeContent, {
-  timelineOppositeContentClasses,
-} from '@mui/lab/TimelineOppositeContent';
+
 
 
 function App() {

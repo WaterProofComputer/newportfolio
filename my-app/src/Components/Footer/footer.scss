@@ -1,0 +1,23 @@
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(42, 43, 44);
+    color: white;
+  }
+  
+  .box-30 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Add more specific styling for the 'box-30' elements if needed */
+  .box-30 p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
