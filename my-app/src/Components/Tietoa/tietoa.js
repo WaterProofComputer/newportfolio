@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './tietoa.scss';
 function Tietoa() {
   return (
     <div id='maincenter'>

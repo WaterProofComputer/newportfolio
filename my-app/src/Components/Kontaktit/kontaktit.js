@@ -1,4 +1,5 @@
 import React from 'react';
+import './kontaktit.scss';
 
 function Kontaktit() {
   return (

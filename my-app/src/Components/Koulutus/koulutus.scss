@@ -1,0 +1,25 @@
+#koulutus {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    background-image: linear-gradient(to right, rgb(60, 61, 65), hsl(183, 92%, 20%));
+    border-style: groove;
+    border-width: 2px;
+    border: 0px solid white;
+    width: 100%;
+    height: fit-content;
+    box-shadow: 0 10px 10px rgb(5, 97, 109);
+  }
+  
+  .big-box {
+    display: flex;
+    width: 100%;
+  }
+  
+  .TimeLine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+  }

@@ -1,0 +1,101 @@
+#maincenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  #taidot {
+    font-size: 3.5rem;
+    color: white;
+  }
+  
+  #center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to right, rgb(60, 61, 65), hsl(183, 92%, 20%));
+    border-style: groove;
+    border-width: 2px;
+    border: 0px solid white;
+    width: 100%;
+    height: fit-content;
+    box-shadow: 0 10px 10px rgb(5, 97, 109);
+  }
+  
+  .rivi {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .box-50 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #center2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border: 0px solid white;
+    width: 80%;
+  }
+  
+  #ohjkielet,
+  #kielet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    width: 100%;
+  }
+  
+  .progress-bar {
+    width: 100%;
+    background-color: #ccc;
+    border-radius: 10px;
+    height: 25px;
+  }
+  
+  .p {
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  .HTML,
+  .CSS,
+  .Csharp,
+  .JAVASCRIPT,
+  .PHP,
+  .MYSQL,
+  .PYTHON {
+    width: 80%; /* Adjust this value to change the progress percentage */
+    height: 25px;
+    background-color: rgb(17, 144, 148); /* Change the color as needed */
+    font-size: 1.3em;
+    border-radius: 10px;
+    text-align: right; /* Right-align text */
+    color: white; /* White text color */
+  }
+  
+  #center2 .progress-bar p {
+    margin-bottom: 10px;
+  }
+  
+  #kielet p {
+    margin-bottom: 10px;
+  }
+  
+  #kielet .CircularProgress-root {
+    --CircularProgress-size: 14vw;
+    color: var(--joy-palette-primary-500, #ffff);
+    --CircularProgress-trackColor: #ccc;
+    --CircularProgress-progressColor: rgb(17, 144, 148);
+  }

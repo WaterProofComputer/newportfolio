@@ -1,6 +1,6 @@
 import React from 'react';
 import CircularProgress from '@mui/joy/CircularProgress';
-
+import './taidot.scss';
 function Taidot() {
   return (
     <div id='maincenter'>

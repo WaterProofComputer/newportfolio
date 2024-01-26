@@ -1,6 +1,6 @@
 import React from 'react';
 import { Timeline, TimelineItem, TimelineOppositeContent, TimelineSeparator, TimelineDot, TimelineContent, TimelineConnector } from '@mui/lab';
-
+import "./koulutus.scss";
 function Koulutus() {
   return (
     <div id='maincenter'>
