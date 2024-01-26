@@ -4,7 +4,7 @@ import './bubbles.scss'
 
 
 
-function App() {
+function Header() {
   const [text, setText] = useState('');
   const texts = ['Ohjelmistokehittäjä', 'Fullstack Developer'];
   const speed = 50;
@@ -131,3 +131,4 @@ function App() {
     </div>
     );
 }
+export default Header;
