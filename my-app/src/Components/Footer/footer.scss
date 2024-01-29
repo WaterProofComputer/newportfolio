@@ -1,4 +1,4 @@
-footer {
+  footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -20,4 +20,8 @@ footer {
   .box-30 p {
     font-size: 1.2rem;
     margin-bottom: 10px;
+  }
+  .footerlinkit {
+    color: white;
+    font-size: 20px;
   }

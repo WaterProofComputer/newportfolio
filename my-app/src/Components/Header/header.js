@@ -56,7 +56,7 @@ function Header() {
         <li><a href="#tietoaminusta">Tietoa Minusta</a></li>
         <li><a href="#koulu">Koulutus</a></li>
         <li><a href="#taidot">Taidot</a></li>
-        <li><a href="#projektit">Projektit</a></li>
+        <li><a href="#galleriamain">Projektit</a></li>
         </ul>
         <div className="hamburger-menu" onClick={toggleMobileMenu}>
         <div className="bar"></div>

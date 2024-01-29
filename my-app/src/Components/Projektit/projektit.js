@@ -19,7 +19,7 @@ const Projektit = () => {
   }, [images.length]);
 
   return (
-    <div className='galleriamain'>
+    <div id='galleriamain'>
     <div className="galleria">
       {images.map((image, index) => (
         <img
