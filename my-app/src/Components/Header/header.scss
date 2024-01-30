@@ -32,7 +32,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #1a1e2373;
+    background-color: #1e3535;
     padding: 10px;
     color: white;
     width: 100%;
@@ -133,3 +133,27 @@ h5 {
     background-color: transparent;
     height: 50px;
 }
+@media screen and (max-width: 768px) {
+    .nav-links {
+      display: none;
+    }
+    .rivi {
+      flex-direction: column;
+    }
+    .box-50{
+      width: 100%;
+    }
+    .hamburger-menu {
+      display: flex;
+    }
+    .project{
+      width: 200px;
+      height: 200px;
+    }
+    h5{
+      font-size: 1em;
+    }
+    h3{
+      font-size: 1.2em;
+    }
+  }

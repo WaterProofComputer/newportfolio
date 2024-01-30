@@ -25,3 +25,15 @@
     color: white;
     font-size: 20px;
   }
+  .kontaktit {
+    color: white;
+    font-size: 20px;
+  }
+  @media screen and (max-width: 768px) {
+    footer{
+      flex-direction: column;
+      height: auto;
+    }
+    
+
+  }

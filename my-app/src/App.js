@@ -16,7 +16,6 @@ function App() {
       <Koulutus />
       <Taidot />
       <Projektit />
-      <Kontaktit />
       <Footer />
     </div>
   );
