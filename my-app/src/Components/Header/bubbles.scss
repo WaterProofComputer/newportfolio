@@ -24,7 +24,17 @@
     height: 100vh;
     overflow: hidden;
   }
-  
+  @keyframes bubble {
+    0% {
+      opacity: 0%;
+    }
+    50% {
+      opacity: 0%;
+    }
+    100% {
+      opacity: 100%;
+    }
+  }
   .bubble {
     position: absolute;
     left: var(--bubble-left-offset);
@@ -35,7 +45,7 @@
     border-radius: 50%;
     animation: float-up var(--bubble-float-duration) var(--bubble-float-delay)
       ease-in infinite;
-  
+      
     &::before {
       position: absolute;
       content: "";

@@ -36,7 +36,7 @@ function Taidot() {
       </div>
       <p>PYTHON</p>
       <div className="progress-bar">
-      <div className="PYTHON">80%</div>
+      <div className="PYTHON">70%</div>
       </div>
       </div>
       </div>

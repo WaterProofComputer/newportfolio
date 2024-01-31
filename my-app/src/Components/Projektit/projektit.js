@@ -36,6 +36,7 @@ const Projektit = () => {
 
   return (
     <div id='galleriamain'>
+      <h1>Projektit</h1>
       <div className="galleria">
         <a
           href={projects[current].url}
@@ -43,12 +44,10 @@ const Projektit = () => {
           rel="noopener noreferrer"
           className="gallery-item"
         >
-          <img
+          <img className='projektikuva'
             src={projects[current].image}
             alt={`Gallery Image ${current + 1}`}
             style={{
-              width: '400px',
-              height: '400px',
               transition: 'opacity 0.5s ease-in-out',
               objectFit: 'cover',
             }}

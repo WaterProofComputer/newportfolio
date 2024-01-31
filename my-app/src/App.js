@@ -12,11 +12,13 @@ function App() {
   return (
     <div className="App">
       <Header></Header>
+      <section>
       <TietoaMinusta />
       <Koulutus />
       <Taidot />
       <Projektit />
       <Footer />
+      </section>
     </div>
   );
 }

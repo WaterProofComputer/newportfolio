@@ -11,6 +11,16 @@ function Header() {
   const appearTime = 1000;
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
+  const [ hasBg, setHasBg ] = useState('');
+
+  window.addEventListener('scroll', function() {
+    if (window.scrollY > document.getElementById('alku').clientHeight) {
+      setHasBg('background');
+    } else {
+      setHasBg('');
+    }
+  });
+
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
@@ -51,12 +61,17 @@ function Header() {
   return (
     <div className="App">
     <body>
-        <div className={`navbar ${isMobileMenuOpen ? 'active' : ''}`}>
+        <div className={`navbar ${hasBg} ${isMobileMenuOpen ? 'active' : ''}`}>
         <ul className={`nav-links ${isMobileMenuOpen ? 'active' : ''}`}>
-        <li><a href="#tietoaminusta">Tietoa Minusta</a></li>
-        <li><a href="#koulu">Koulutus</a></li>
-        <li><a href="#taidot">Taidot</a></li>
-        <li><a href="#galleriamain">Projektit</a></li>
+        <div className='leftnavbar'>
+        <h1 className='nimi'>Viljami Leskelä</h1>
+        </div>
+        <div className='rightnavbar'>
+        <li><a className="navbartext" href="#tietoaminusta">Tietoa Minusta</a></li>
+        <li><a className="navbartext" href="#koulu">Koulutus</a></li>
+        <li><a className="navbartext" href="#taidot">Taidot</a></li>
+        <li><a className="navbartext" href="#galleriamain">Projektit</a></li>
+        </div>
         </ul>
         <div className="hamburger-menu" onClick={toggleMobileMenu}>
         <div className="bar"></div>

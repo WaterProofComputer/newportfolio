@@ -32,7 +32,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #1e3535;
+    background-color: #1e353500;
     padding: 10px;
     color: white;
     width: 100%;
@@ -46,6 +46,7 @@ header {
     padding: 0;
     color: black;
     font-size: 3em;
+    width: 100%;
 }
 
 .nav-links li a {
@@ -127,12 +128,32 @@ h5 {
     font-size: 2.5em;
     color: white;
 }
-
+.nimi {
+    font-size: 30px;
+}
 #headertext {
     font-size: 5vw;
     background-color: transparent;
     height: 50px;
 }
+.navbartext {
+    font-size: 30px;
+}
+.rightnavbar {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+}
+.leftnavbar {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+}
+
+.navbar.background {
+    background-color: (#1e3535);
+}
+
 @media screen and (max-width: 768px) {
     .nav-links {
       display: none;
@@ -155,5 +176,12 @@ h5 {
     }
     h3{
       font-size: 1.2em;
+    }
+    .leftnavbar {
+        display: none;
+    }
+    .rightnavbar {
+        width: 100%;
+        flex-direction: column;
     }
   }

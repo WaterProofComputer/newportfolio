@@ -27,7 +27,6 @@
   .rivi {
     display: flex;
     width: 100%;
-    flex-direction: row;
     justify-content: space-around;
     align-items: center;
   }
@@ -69,14 +68,62 @@
     color: white;
   }
   
-  .HTML,
-  .CSS,
-  .Csharp,
-  .JAVASCRIPT,
-  .PHP,
-  .MYSQL,
-  .PYTHON {
+  .HTML {
     width: 80%; /* Adjust this value to change the progress percentage */
+    height: 25px;
+    background-color: rgb(17, 144, 148); /* Change the color as needed */
+    font-size: 1.3em;
+    border-radius: 10px;
+    text-align: right; /* Right-align text */
+    color: white; /* White text color */
+  }
+  .CSS {
+    width: 80%; /* Adjust this value to change the progress percentage */
+    height: 25px;
+    background-color: rgb(17, 144, 148); /* Change the color as needed */
+    font-size: 1.3em;
+    border-radius: 10px;
+    text-align: right; /* Right-align text */
+    color: white; /* White text color */
+  }
+  .Csharp {
+    width: 75%; /* Adjust this value to change the progress percentage */
+    height: 25px;
+    background-color: rgb(17, 144, 148); /* Change the color as needed */
+    font-size: 1.3em;
+    border-radius: 10px;
+    text-align: right; /* Right-align text */
+    color: white; /* White text color */
+  }
+  .JAVASCRIPT {
+    width: 60%; /* Adjust this value to change the progress percentage */
+    height: 25px;
+    background-color: rgb(17, 144, 148); /* Change the color as needed */
+    font-size: 1.3em;
+    border-radius: 10px;
+    text-align: right; /* Right-align text */
+    color: white; /* White text color */
+  }
+  .PHP {
+    width: 60%; /* Adjust this value to change the progress percentage */
+    height: 25px;
+    background-color: rgb(17, 144, 148); /* Change the color as needed */
+    font-size: 1.3em;
+    border-radius: 10px;
+    text-align: right; /* Right-align text */
+    color: white; /* White text color */
+  }
+  .MYSQL {
+    width: 60%; /* Adjust this value to change the progress percentage */
+    height: 25px;
+    background-color: rgb(17, 144, 148); /* Change the color as needed */
+    font-size: 1.3em;
+    border-radius: 10px;
+    text-align: right; /* Right-align text */
+    color: white; /* White text color */
+  }
+  .PYTHON {
+    width: 70%; /* Adjust this value to change the progress percentage */
     height: 25px;
     background-color: rgb(17, 144, 148); /* Change the color as needed */
     font-size: 1.3em;
@@ -98,4 +145,35 @@
     color: var(--joy-palette-primary-500, #ffff);
     --CircularProgress-trackColor: #ccc;
     --CircularProgress-progressColor: rgb(17, 144, 148);
+  }
+  @media screen and (max-width: 768px) {
+    .HTML {
+      height: 20px;
+    }
+    .CSS {
+      width: 80%; /* Adjust this value to change the progress percentage */
+      height: 20px;
+    }
+    .Csharp {
+      width: 75%; /* Adjust this value to change the progress percentage */
+      height: 20px;
+    }
+    .JAVASCRIPT {
+      width: 60%; /* Adjust this value to change the progress percentage */
+      height: 20px;
+    }
+    .PHP {
+      width: 60%; /* Adjust this value to change the progress percentage */
+      height: 20px;
+    }
+    .MYSQL {
+      width: 60%; /* Adjust this value to change the progress percentage */
+      height: 20px;
+    }
+    .PYTHON {
+      height: 20px;
+    }
+    .progress-bar {
+      height: 20px;
+    }
   }
