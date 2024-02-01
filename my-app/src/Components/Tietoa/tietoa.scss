@@ -37,6 +37,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
   }
   
   p {
@@ -48,11 +49,12 @@
     width: 400px;
     height: 400px;
     border-radius: 100%;
+    align-self: center;
   }
-  
-  #center img {
+  .tietoateksti {
     margin: 20px;
   }
+  
   
   @media screen and (max-width: 768px) {
     .rivi {
@@ -60,6 +62,13 @@
     }
     .box-50 {
       width: 100%;
+    }
+    .minä {
+      width: 300px;
+      height: 300px;
+    }
+    .tietoateksti {
+      font-size: 20px;
     }
   }
   

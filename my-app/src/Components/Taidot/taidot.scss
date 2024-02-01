@@ -56,80 +56,33 @@
     width: 100%;
   }
   
-  .progress-bar {
-    width: 100%;
-    background-color: #ccc;
-    border-radius: 10px;
-    height: 25px;
-  }
   
   .p {
     font-size: 1.5rem;
     color: white;
   }
-  
-  .HTML {
-    width: 80%; /* Adjust this value to change the progress percentage */
-    height: 25px;
-    background-color: rgb(17, 144, 148); /* Change the color as needed */
-    font-size: 1.3em;
-    border-radius: 10px;
-    text-align: right; /* Right-align text */
-    color: white; /* White text color */
+  .taidot-grid {
+    grid-gap: 20px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(5,56px);
+    margin-top: 10px;
   }
-  .CSS {
-    width: 80%; /* Adjust this value to change the progress percentage */
-    height: 25px;
-    background-color: rgb(17, 144, 148); /* Change the color as needed */
-    font-size: 1.3em;
-    border-radius: 10px;
-    text-align: right; /* Right-align text */
-    color: white; /* White text color */
+  .taidot {
+    font-size: 46px;
+    height: 50px;
+    width: 50px;
   }
-  .Csharp {
-    width: 75%; /* Adjust this value to change the progress percentage */
-    height: 25px;
-    background-color: rgb(17, 144, 148); /* Change the color as needed */
-    font-size: 1.3em;
-    border-radius: 10px;
-    text-align: right; /* Right-align text */
-    color: white; /* White text color */
-  }
-  .JAVASCRIPT {
-    width: 60%; /* Adjust this value to change the progress percentage */
-    height: 25px;
-    background-color: rgb(17, 144, 148); /* Change the color as needed */
-    font-size: 1.3em;
-    border-radius: 10px;
-    text-align: right; /* Right-align text */
-    color: white; /* White text color */
-  }
-  .PHP {
-    width: 60%; /* Adjust this value to change the progress percentage */
-    height: 25px;
-    background-color: rgb(17, 144, 148); /* Change the color as needed */
-    font-size: 1.3em;
-    border-radius: 10px;
-    text-align: right; /* Right-align text */
-    color: white; /* White text color */
-  }
-  .MYSQL {
-    width: 60%; /* Adjust this value to change the progress percentage */
-    height: 25px;
-    background-color: rgb(17, 144, 148); /* Change the color as needed */
-    font-size: 1.3em;
-    border-radius: 10px;
-    text-align: right; /* Right-align text */
-    color: white; /* White text color */
-  }
-  .PYTHON {
-    width: 70%; /* Adjust this value to change the progress percentage */
-    height: 25px;
-    background-color: rgb(17, 144, 148); /* Change the color as needed */
-    font-size: 1.3em;
-    border-radius: 10px;
-    text-align: right; /* Right-align text */
-    color: white; /* White text color */
+  .taitobox {
+    align-items: center;
+    background-color: #0f283d;;
+    border-radius: 4px;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    padding: 6px;
+    text-align: center;
+    width: 50px
   }
   
   #center2 .progress-bar p {
@@ -147,33 +100,19 @@
     --CircularProgress-progressColor: rgb(17, 144, 148);
   }
   @media screen and (max-width: 768px) {
-    .HTML {
-      height: 20px;
+    .taidot {
+      font-size: 36px;
+      height: 40px;
+      width: 40px;
     }
-    .CSS {
-      width: 80%; /* Adjust this value to change the progress percentage */
-      height: 20px;
+    .taitobox {
+      align-items: center;
+      border-radius: 4px;
+      display: flex;
+      height: 40px;
+      width: 40px
     }
-    .Csharp {
-      width: 75%; /* Adjust this value to change the progress percentage */
-      height: 20px;
-    }
-    .JAVASCRIPT {
-      width: 60%; /* Adjust this value to change the progress percentage */
-      height: 20px;
-    }
-    .PHP {
-      width: 60%; /* Adjust this value to change the progress percentage */
-      height: 20px;
-    }
-    .MYSQL {
-      width: 60%; /* Adjust this value to change the progress percentage */
-      height: 20px;
-    }
-    .PYTHON {
-      height: 20px;
-    }
-    .progress-bar {
-      height: 20px;
+    .taidot-grid {
+      grid-gap: 6px;
     }
   }

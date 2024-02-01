@@ -5,9 +5,9 @@ const Projektit = () => {
   const [current, setCurrent] = useState(0);
   const projects = [
     {
-      image: 'wizardtower.png',
+      image: 'Wizardtower.png',
       info: 'Wizard Tower: 2D Peliprojekti, ei valmis.',
-      url: '',
+      url: 'https://github.com/WaterProofComputer',
     },
     {
       image: 'maalaus.jpg',
@@ -15,14 +15,9 @@ const Projektit = () => {
       url: 'https://geronimo.okol.org/~lesvil/maalaus/',
     },
     {
-      image: 'maalaus.png',
+      image: 'autoheaven.png',
       info: 'AutoHeaven: Nettisivut auto yritykselle.',
-      url: '',
-    },
-    {
-      image: 'logo512.png',
-      info: 'Project 4: Description for project 4.',
-      url: '',
+      url: 'https://autoheavenwebsiteproject-4mobj.kinsta.page',
     },
   ];
 

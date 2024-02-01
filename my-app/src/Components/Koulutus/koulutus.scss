@@ -16,10 +16,31 @@
     display: flex;
     width: 100%;
   }
-  
+  .box-100 {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
   .TimeLine {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100vh;
+  }
+  .työteksti {
+    font-size: 20px;
+    margin: 30px;
+  }
+  .css-55vwbm-MuiTimeline-root {
+    *{
+    font-size: 35px !important;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .css-55vwbm-MuiTimeline-root {
+      padding: 0 !important;
+      * {
+        font-size: 14px !important;
+      }
+      } 
   }
